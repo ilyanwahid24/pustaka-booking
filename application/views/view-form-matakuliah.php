@@ -7,6 +7,7 @@
 </head>
 <body>
     <center>
+        <?php echo validation_errors(); ?>
         <form action="<?= base_url('matakuliah/cetak'); ?>" method="post">
         <!-- Merubah base_url menjadi 'matakuliah/cetak' untuk memanggil function cetak dari controller Matakuliah dengan metode pengiriman data post -->
             <table>
